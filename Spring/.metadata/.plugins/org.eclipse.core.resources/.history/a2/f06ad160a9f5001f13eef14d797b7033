@@ -1,0 +1,9 @@
+package com.example.igtDemo.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.igtDemo.Entity.Student;
+
+public interface StudentRepo extends JpaRepository<Student, Integer> {
+
+}
